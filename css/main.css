@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Fira+Sans&family=Noto+Sans:ital@1&family=Playfair+Display:ital,wght@1,400;1,500&family=Raleway:ital,wght@0,400;1,300&display=swap');
+
+
+
+:root{
+  --theme-color:white;
+  --primary-color: rgb(95, 71, 95);
+  --secondary-color:grey;
+  --secondary-color2:rgb(51, 50, 50);
+  --text-color-inverse:white;
+  --text-color:black;
+  --navbar-shallow-color:rgb(155, 154, 154); 
+  --menu-mobile-background-color:rgb(95, 71, 95); 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+section[id]{
+  scroll-margin-top:70px;
+}
+body{
+    background-color: var(--theme-color) ;
+    color:var(--text-color);
+    padding-top: 80px;
+    font-family: 'Raleway', sans-serif;
+    
+
+    
+}
+a{
+    text-decoration: none;
+    color:var(--primary-color)
+    
+}
+
+.vertical-padding{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.horizontal-padding{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width:950px){
+  .vertical-padding{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .horizontal-padding{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
